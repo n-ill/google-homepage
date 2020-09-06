@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 16px 0px 0px 9px;
+  }
+
+li {
+    display: inline;
+    padding: 7px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #555555;
+}
+
+a:visited {
+    color: #555555;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+.search-bar {
+    position: absolute;
+    top: 325px;
+    left: 675px;
+}
+
+.search-bar input {
+    height: 30px;
+    width: 500px;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+#logo {
+    position: absolute;
+    top: 200px;
+    left: 800px;
+}
+
+.button {
+    cursor: pointer;
+    border: none;
+    color: #555555;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+#search-button {
+    position: absolute;
+    top: 390px;
+    left: 800px;
+}
+
+#lucky-button {
+    position: absolute;
+    top: 390px;
+    left: 935px;
+}
+
+#signin-button {
+    cursor: pointer;
+    background-color: #4285F4;
+    border: none;
+    color: white;
+    position: absolute;
+    padding: 7px 15px;
+    font-size: 14px;
+    top: 18px;
+    left: 1815px;
+}
+
+.bottom-nav {
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    background-color: #EEEEEE;
+    width: 100%;
+}
